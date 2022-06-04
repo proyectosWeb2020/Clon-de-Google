@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedorHeader{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 10px;
+}
+.contenedorHeader img{
+    height: 30px;
+    width: 30px;
+}
+.perfil{
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+section img {
+     height: 300px;   
+}
+section input{
+    border-radius: 10px;
+    height: 36px;
+    width: 520px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+footer div img{
+    height:30px ;
+    width: 30px;
+    border: 10px solid rgb(188, 188, 188);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.Personalizar{
+    margin-right: 20px;
+    /* background-color: rgb(123, 186, 186); */
+    border-radius: 10px;
+    box-shadow: 1px 2px rgb(143, 143, 143); 
+}
+.Personalizar:hover{
+    background-color: rgb(206, 247, 248);
+}
+.ContenedordeBotones{
+    display: flex;
+    justify-content: flex-end;
+}
